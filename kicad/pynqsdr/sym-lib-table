@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "pynqsdr-altium-import")(type "KiCad")(uri "${KIPRJMOD}/pynqsdr-altium-import.kicad_sym")(options "")(descr ""))
+)

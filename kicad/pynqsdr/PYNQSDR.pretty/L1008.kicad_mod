@@ -1,0 +1,18 @@
+(footprint "L1008" (version 20211014) (generator pcbnew) (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at -1.24682 -1.294343 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.381 0.381) (thickness 0.254)) (justify left bottom))
+    (tstamp 3837a25c-e452-45da-afca-275bb72b4043)
+  )
+  (fp_text value "4.7uH" (at 1.370129 3.884714 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.381 0.381) (thickness 0.254)) (justify left bottom))
+    (tstamp 5b64976f-4476-4952-b7cf-7905c0eb2185)
+  )
+  (fp_line (start -0.7874 0.9906) (end 0.7874 0.9906) (layer "F.SilkS") (width 0.254) (tstamp 11729651-9248-4a46-9f68-cf755cfd4ec0))
+  (fp_line (start -0.7874 -0.9906) (end 0.7874 -0.9906) (layer "F.SilkS") (width 0.254) (tstamp 66d86381-4023-4f1f-a3e7-627e5d49297d))
+  (fp_arc (start 0 -0.299999) (mid -0.25 -0.549999) (end 0 -0.799999) (layer "F.SilkS") (width 0.254) (tstamp 164d6239-449f-451a-8f46-3c80f4059a66))
+  (fp_arc (start 0 0.2) (mid -0.25 -0.05) (end 0 -0.3) (layer "F.SilkS") (width 0.254) (tstamp 2404896d-7f84-4987-91e8-ae13171101f8))
+  (fp_arc (start 0 0.699999) (mid -0.25 0.449999) (end 0 0.199999) (layer "F.SilkS") (width 0.254) (tstamp fd5abdb7-9763-49c6-a137-19678519c544))
+  (pad "1" smd rect (at -1.013968 0) (size 0.8509 2.49936) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c38b3ec1-f147-4504-8bef-cc5a927e7d8e))
+  (pad "2" smd rect (at 1.018032 0) (size 0.8509 2.49936) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3f63727a-b24b-43bd-88a6-c908ea2e2f7c))
+)

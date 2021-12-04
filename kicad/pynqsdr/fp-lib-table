@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "PYNQSDR_FINAL")(type "KiCad")(uri "C:/Users/altium/Desktop/PYNQSDR_FINAL.pretty")(options "")(descr ""))
+  (lib (name "PYNQSDR")(type "KiCad")(uri "${KIPRJMOD}/PYNQSDR.pretty")(options "")(descr ""))
+)

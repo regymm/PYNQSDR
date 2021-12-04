@@ -4,11 +4,13 @@
 
 PYNQ-Z1 + AD936X SDR platform. Openwifi & PlutoSDR capable. 
 
-**Hardware files/documents/blogs coming soon, stay tuned!**
+[KiCad files](./kicad) | [Design notes TBD] | [Blog TBD]
+
+**Documents/blogs coming soon, stay tuned!**
 
 #### Design
 
-This project demonstrated that AD936X chip can combine with low-cost ZYNQ FPGA development boards, especially PYNQ-Z1, and run openwifi without problem. This can potentially become an extremely low-cost openwifi platform. 
+This project demonstrated that AD936X chip can combine with low-cost ZYNQ FPGA development boards, especially PYNQ-Z1, and run openwifi without problem. This can potentially become an extremely low-cost openwifi platform. And with extensions removed, you still have a working(maybe except HDMI) PYNQ capable of any other serious ZYNQ projects. 
 
 Of course, a series of "hacking" is required: 
 
@@ -28,6 +30,10 @@ Of course, a series of "hacking" is required:
   - Heatgun, soldering iron, solder paste, flux are enough, it's really not that hard
 
 *Detailed modification of PYNQ-Z1 coming soon.*
+
+#### Future plan
+
+Current version requires modification of the PYNQ-Z1 board aka 0402 soldering. I'll try if I can get this working with zero modification on PYNQ side. If coming tests show positive result, there'll be a version 2. 
 
 #### Gallery
 
