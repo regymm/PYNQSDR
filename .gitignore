@@ -1,0 +1,11 @@
+*.gbr
+fp-info-cache
+*.net
+*.kicad_wks
+*.drl
+*.kicad_prl
+*backups
+*.zip
+*bak
+*.gbrjob
+*.pro
