@@ -4,13 +4,17 @@
 
 PYNQ-Z1 + AD936X SDR platform. Openwifi & PlutoSDR capable. 
 
-[KiCad files](./kicad) | [Design & future plan](Design.md) | [Blog TBD]
+[KiCad files](./kicad) **|** [Design & future plan](Design.md) **|** [Talk on FOSDEM 2022](https://fosdem.org/2022/schedule/event/openwifipynqz1/) [Slides](doc/openwifi_pynqz1.pdf) **|** [Blog TBD]
 
-**Blogs coming soon, stay tuned!**
+**Blogs and new boards coming soon, stay tuned!**
 
 This project demonstrated that AD936X chip can combine with low-cost ZYNQ FPGA development boards, especially PYNQ-Z1, and run openwifi without problem. This can potentially become an extremely low-cost openwifi platform. And with extensions removed, you still have a PYNQ capable of any other serious ZYNQ projects. 
 
 #### Gallery
+
+V1.1 board that works: 
+
+![](pic/v1.1.jpg)
 
 Openwifi running on PYNQSDR: 
 
