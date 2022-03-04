@@ -4,7 +4,7 @@
 
 PYNQ-Z1 + AD936X SDR platform. Openwifi & PlutoSDR capable. 
 
-[KiCad files](./kicad) **|** [Design & future plan](Design.md) **|** [Talk on FOSDEM 2022](https://fosdem.org/2022/schedule/event/openwifipynqz1/) [Slides](doc/openwifi_pynqz1.pdf) **|** [Blog TBD]
+[KiCad files](./kicad) **|** [Design & future plan](Design.md) **|** [Talk on FOSDEM 2022](https://fosdem.org/2022/schedule/event/openwifipynqz1/) [Slides](doc/openwifi_pynqz1.pdf) **|** [Blog TBD] **|** [Quick start](Quickstart.md)
 
 **Blogs and new boards coming soon, stay tuned!**
 
