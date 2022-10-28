@@ -19,21 +19,20 @@ A series of "hacking" is required to get things work.
   - Optionally remove TVS diodes and 200 ohm series resistors, can run at 120 MHz (~61.44 M sampling rate 1rx-1tx)
 - Board shape is strange...
   - Small connectors on PMOD/HDMI side is required
+  - I'm worried about mechanical strains caused by HDMI bridges, so using short HDMI cables is being considered. 
 - Hand-solder BGA?
   - Heatgun, soldering iron, solder paste, flux are enough, it's really not that hard
   - **warning**: Boards after SMT assembly will suffer oxidation when re-flowing, so ordering SMT assembly w/o the BGA chip then manually solder the BGA may not work well
 
-
-
-Design "explained"(initial testing version):
-
-![](pic/sch_design.png)
-
-![](pic/pcb_design.png)
-
-
-
 #### Future plan
+
+V1.2 seems good and will be for sale soon. Another batch(v1.2.1) with minor modification will come soon. 
+
+...
+
+Another 5 fabricated and proved to be fine. Another batch(v1.2) coming soon. 
+
+...
 
 Boards version 1.1 have been made and manually assembled using 1.0's material. It works fine, so another batch of 5 will be made in late Feb. 2022. 
 
@@ -46,3 +45,11 @@ Boards version 1.0 suffered BGA soldering problems because they have been re-flo
 Since I'm confident unmodified PYNQ-Z1 can make it, board version 1.0 will be designed and sent to fabrication and SMT assembly before Dec 31, 2021. 5 boards are to be made. 
 
 If the 5 boards turn to be OK, more will be coming. 
+
+---
+
+Design "explained"(initial testing version, **deprecated**):
+
+![](pic/sch_design.png)
+
+![](pic/pcb_design.png)

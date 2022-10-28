@@ -31,17 +31,19 @@ devicetree.bin
 
 #### Power on
 
-Turn on the power, you'll see the red power LED on -- if this doesn't happen, immediately power off and check your board -- there's probably a short. After ~0.5s LD0-LD3 will have some action after bitstream is loaded. 
+Turn on the power, you'll see the red power LED on -- if this doesn't happen, immediately power off and check your board -- there's probably a short. After ~0.5s LD0-LD3 will have some action after bitstream is loaded. PlutoSDR: among the 4 green LEDs, some is brightly on. Openwifi: some are slightly on(as a simple check, don't rely on this). 
 
 #### Connect
 
 *Pluto*
 
-Linux terminal on USB serial port 115200 baud, root password is `analog`. Set host ethernet IP to 192.168.1.2, board IP will be 192.168.1.10. 
+Linux terminal on USB serial port 115200 baud, root password is `analog`. Board IP will be 192.168.1.10 so set host IP to 192.168.1.2 or so. 
 
 *Openwifi*
 
-Set host ethernet IP to 192.168.10.1, board IP will be 192.168.10.122, ssh into board, username: root, password: `openwifi`. USB serial port has early boot message but will stop after kernel booting. 
+Set host ethernet IP to 192.168.10.1, board IP will be 192.168.10.122, ssh into board, username: root, password: `openwifi`. USB serial port has early boot message but will stop after kernel booting(to be solved) so use SSH. 
+
+It's recommended to assign 2 IP addresses(192.168.10.1 and 192.168.1.2 at the same time) to a spare ethernet port. 
 
 #### Pluto
 
