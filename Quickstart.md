@@ -1,5 +1,9 @@
 ### PYNQSDR Quick Start
 
+#### Pre-built images
+
+Currently hosted on my "website" http://149.28.136.195/
+
 #### Board 
 
 Plug extension boards together, make sure the PMOD plugins are in correct direction -- the 3V3/GND is on the left and IC is on the right: 
@@ -51,9 +55,30 @@ This blog for setup.
 
 https://regymm.github.io/MyBlog/experience/2022/01/13/plutosdr-setup.html
 
+Since ILA(Vivado internal logic analyzer) corresponding to the pre-built firmware is also included in the downloadable Vivado project, you can open hardware manager in Vivado, the ILA will automatically pop up. 
+
 #### Openwifi 
 
 Manually tune RX/TX: 
+
+```
+~/tune.sh
+```
+
+`dmesg` to check tune OK: 
+
+```
+SAMPL CLK: 40000000 tuning: RX
+  0:1:2:3:4:5:6:7:8:9:a:b:c:d:e:f:
+0:o o o o o o o o O o o o o o o o 
+1:o o o o o # # # # # # # # # # # 
+SAMPL CLK: 40000000 tuning: TX
+  0:1:2:3:4:5:6:7:8:9:a:b:c:d:e:f:
+0:# # # # # # # # # # # # # # # # 
+1:# # # # # # # o o o o O o o o o
+```
+
+The script is just: 
 
 ```
 cd /sys/bus/iio/devices/iio\:device1
@@ -66,7 +91,7 @@ echo 0 3 > digital_tune
 dmesg
 ```
 
-Start wifi:
+Start wifi: 
 
 `~/openwifi/fosdem-11ag.sh`
 
