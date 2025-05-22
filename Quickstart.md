@@ -2,7 +2,7 @@
 
 #### Pre-built images
 
-Currently hosted on my "website" http://149.28.136.195/
+Currently hosted on my website http://152.70.101.209/
 
 #### Board 
 
