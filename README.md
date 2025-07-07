@@ -2,6 +2,8 @@
 
 ![](pic/logo.png)
 
+### 🚀　**We're launching! Follow the updates on [Crowd Supply](https://www.crowdsupply.com/xtal-hart-tech/pynqsdr-hat)!**　🚀
+
 PYNQ-Z1 + AD936X SDR platform and more. Openwifi & PlutoSDR capable. 
 
 [KiCad files](./kicad) **|** [Design & future plan](Design.md) **|** [Talk on FOSDEM 2022](https://fosdem.org/2022/schedule/event/openwifipynqz1/) [Slides](doc/openwifi_pynqz1.pdf) **|** [Blog TBD] **|** [Quick start](Quickstart.md) **|** [EBAZSDR TBD]
